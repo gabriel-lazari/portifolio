@@ -151,8 +151,8 @@ nav ul {
   position: fixed;
   top: 12vh;
   right: -100vw;
-  width: 50vw;
-  height: 88vh;
+  width: 100vw;
+  height: 50vh;
   transition: 0.4s;
   display: flex;
   flex-direction: column;
