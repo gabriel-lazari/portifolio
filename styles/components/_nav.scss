@@ -26,8 +26,8 @@ nav {
         background-color: $color-secundaria;
         position: fixed;
         top: 12vh;
-        left: 100vw;
-        width: 100vw;
+        right: -100vw;
+        width: 50vw;
         height: 88vh;
         transition: 0.4s;
         display: flex;
@@ -45,7 +45,6 @@ nav {
                 font-size: 18px;
                 text-decoration: none;
                 color: #fff;
-
             }
         }
     }
@@ -68,6 +67,6 @@ nav {
 
 // menu trazendo lista
 .menu-ativo {
-    left: 0;
+    right: 0;
     transition: 0.4s;
 }
