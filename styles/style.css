@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *,
 *:before,
 *:after {
@@ -106,4 +107,83 @@ table {
 
 input {
   border-radius: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace !important;
+  color: #ffffff;
+}
+
+header {
+  position: fixed;
+  background-color: #111032;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  width: 100vw;
+  height: 12vh;
+}
+
+nav {
+  position: fixed;
+  right: 25px;
+}
+nav div {
+  cursor: pointer;
+}
+nav div span {
+  display: block;
+  width: 35px;
+  border-top: 4px solid #ffffff;
+}
+nav div span::after, nav div span::before {
+  content: "";
+  display: block;
+  border-top: 4px solid #ffffff;
+  margin-top: 5px;
+  position: relative;
+  transition: 0.4s;
+}
+nav ul {
+  background-color: #0439db;
+  position: fixed;
+  top: 12vh;
+  left: 100vw;
+  width: 100vw;
+  height: 88vh;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+nav ul li {
+  border: #000 solid 1px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-animation {
+  border-top-color: transparent;
+  margin: 0 0 15px 0;
+}
+.menu-animation::after {
+  transform: rotate(135deg);
+}
+.menu-animation::before {
+  transform: rotate(-135deg);
+  top: 9px;
+}
+
+.menu-ativo {
+  left: 0;
+  transition: 0.4s;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@import '../abstract/variaveis';
+
+header {
+    position: fixed;
+    background-color: $color-primaria;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    width: 100vw;
+    height: 12vh;
+}
