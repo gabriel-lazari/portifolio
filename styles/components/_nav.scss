@@ -15,8 +15,8 @@ nav {
             &::before {
                 content: "";
                 display: block;
-                border-top: 4px solid $color-fonte;
-                margin-top: 5px;
+                border-top: 5px solid $color-fonte;
+                margin-top: 4px;
                 position: relative;
                 transition: 0.4s;
             }
@@ -24,7 +24,7 @@ nav {
     }
 
     ul {
-        background-color: $color-secundaria;
+        background-color: $color-fonte;
         position: fixed;
         top: 0vh;
         top: 12vh;
@@ -45,7 +45,6 @@ nav {
                 width: 100vw;
                 height: 10vh;
                 letter-spacing: 6px;
-                border-top: 0.1px solid $color-primaria;
             }
         }
     }
