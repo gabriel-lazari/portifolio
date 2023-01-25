@@ -114,6 +114,34 @@ body {
   font-family: "Source Code Pro", monospace !important;
   color: #ffffff;
 }
+body .loading {
+  background-color: #111032;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  -webkit-animation: loading 1s forwards 1s;
+          animation: loading 1s forwards 1s;
+}
+@-webkit-keyframes loading {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+@keyframes loading {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+body .loading img {
+  width: 80px;
+  height: 80px;
+}
 
 header {
   position: fixed;
