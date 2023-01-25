@@ -5,7 +5,9 @@ body {
 
     .code {
         color: $color-fonte;
-        font-size: 50px;
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: bold;
     }
 
     .loading {
