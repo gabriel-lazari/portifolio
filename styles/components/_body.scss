@@ -3,6 +3,11 @@ body {
     font-family: $fonte !important;
     color: $color-fonte;
 
+    .code {
+        color: $color-fonte;
+        font-size: 50px;
+    }
+
     .loading {
         background-color: $color-primaria;
         position: fixed;
@@ -21,9 +26,19 @@ body {
             }
         }
 
-        img {
-            width: 80px;
-            height: 80px;
+        .icon-loading {
+            width: 65px;
+            height: 65px;
+            border: 8px solid #fff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: icon-loading 1s infinite;
+
+            @keyframes icon-loading {
+                to {
+                    transform: rotate(360deg);
+                }
+            }
         }
     }
 }
