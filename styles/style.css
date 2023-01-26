@@ -210,6 +210,18 @@ nav ul li a {
   transition: 0.4s;
 }
 
+.menu-animation {
+  border-top-color: transparent;
+  margin: 0 0 15px 0;
+}
+.menu-animation::after {
+  transform: rotate(135deg);
+}
+.menu-animation::before {
+  transform: rotate(-135deg);
+  top: 9px;
+}
+
 main {
   padding: 12vh 0 0 0;
 }
