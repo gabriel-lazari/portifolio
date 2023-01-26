@@ -11,7 +11,7 @@ body {
     }
 
     .loading {
-        background-color: $color-primaria;
+        background-color: $color-secundaria;
         position: fixed;
         width: 100vw;
         height: 100vh;
@@ -28,19 +28,8 @@ body {
             }
         }
 
-        span {
-            width: 65px;
-            height: 65px;
-            border: 8px solid #fff;
-            border-radius: 50%;
-            border-top-color: transparent;
-            animation: icon-loading 1s infinite;
-
-            @keyframes icon-loading {
-                to {
-                    transform: rotate(360deg);
-                }
-            }
+        img {
+            width: 80px;
         }
     }
 }

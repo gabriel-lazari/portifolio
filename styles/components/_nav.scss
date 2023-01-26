@@ -50,21 +50,6 @@ nav {
     }
 }
 
-// menu animação 
-.menu-animation {
-    border-top-color: transparent;
-    margin: 0 0 15px 0;
-
-    &::after {
-        transform: rotate(135deg);
-    }
-
-    &::before {
-        transform: rotate(-135deg);
-        top: 9px;
-    }
-}
-
 // menu trazendo lista
 .menu-ativo {
     right: 0;
