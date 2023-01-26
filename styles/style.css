@@ -128,8 +128,8 @@ body .loading {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  -webkit-animation: loading 1s forwards 1s;
-          animation: loading 1s forwards 1s;
+  -webkit-animation: loading 1s forwards 2s;
+          animation: loading 1s forwards 2s;
 }
 @-webkit-keyframes loading {
   to {
