@@ -6,3 +6,9 @@ $color-fonte: #E1E8EB;
 $color-fonte-secundaria: #E1E8EB;
 $color-primaria: #1f8bdd;
 $color-secundaria: #111032;
+
+@mixin centralize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

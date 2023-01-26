@@ -148,6 +148,7 @@ body .loading img {
 }
 
 header {
+  z-index: 1;
   position: fixed;
   background-color: #1f8bdd;
   display: flex;
@@ -225,30 +226,28 @@ nav ul li a {
 main {
   padding: 12vh 0 0 0;
 }
-main section {
+main .home {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(max(50%, min(345px, 100%)), 1fr));
   background-color: #111032;
   min-height: 88vh;
 }
-main section .home-foto {
+main .home .home-foto {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main section .home-foto img {
-  margin: 30px 0 0 0;
+main .home .home-foto img {
+  margin: 50px 0 30px 0;
   border-radius: 100%;
   width: 300px;
   height: 300px;
 }
-main section .home-foto ul {
-  display: flex;
-  align-items: center;
-  margin: 30px 0;
+main .home .home-foto ul {
+  margin: 0 0 30px 0;
 }
-main section .home-foto ul li a {
+main .home .home-foto ul li a {
   color: #E1E8EB;
   font-size: 18px;
   text-decoration: none;
@@ -256,17 +255,17 @@ main section .home-foto ul li a {
   border-radius: 15px;
   background-color: rgb(35, 136, 224);
 }
-main section .home-descricao {
+main .home .home-descricao {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-main section .home-descricao h1 {
+main .home .home-descricao h1 {
   font-size: 30px;
   letter-spacing: 5px;
 }
-main section .home-descricao h2 {
+main .home .home-descricao h2 {
   font-style: italic;
   color: #1f8bdd;
   text-align: center;
@@ -303,14 +302,47 @@ main section .home-descricao h2 {
     color: #E1E8EB;
   }
 }
-main section .home-descricao p {
+main .home .home-descricao p {
   text-align: center;
   font-size: 18px;
   padding: 0 40px 20px;
 }
+main .habilidades {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(233, 24, 9);
+}
+main .habilidades h2 {
+  font-size: 22px;
+}
+main .habilidades ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main .habilidades ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .habilidades ul li ion-icon {
+  z-index: 0;
+  font-size: 54px;
+  color: #000;
+}
+main .habilidades ul li img {
+  width: 48px;
+}
+main .projetos {
+  height: 100vh;
+  background-color: rgb(190, 233, 20);
+}
 
 @media (max-width: 500px) {
-  main section {
+  main .home {
     height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

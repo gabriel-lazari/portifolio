@@ -1,7 +1,7 @@
 main {
     padding: 12vh 0 0 0;
 
-    section {
+    .home {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(max(100%/2, min(345px, 100%)), 1fr));
         background-color: $color-secundaria;
@@ -14,24 +14,20 @@ main {
             flex-direction: column;
 
             img {
-                margin: 30px 0 0 0;
+                margin: 50px 0 30px 0;
                 border-radius: 100%;
                 width: 300px;
                 height: 300px;
             }
 
             ul {
-                display: flex;
-                align-items: center;
-             
-                margin: 30px 0;
-
+                margin: 0 0 30px 0;
                 li {
                     a {
                         color: $color-fonte;
                         font-size: 18px;
                         text-decoration: none;
-                        padding: 8px 30px;
+                        padding: 8px 30px;   
                         border-radius: 15px;
                         background-color: rgb(35, 136, 224);
                     }
@@ -85,11 +81,44 @@ main {
         }
 
     }
+
+    .habilidades {
+        height: 100vh;
+        @include centralize;
+        flex-direction: column;
+        background-color: rgb(233, 24, 9);
+        h2 {
+            font-size: 22px;
+        }
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr  ;
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                ion-icon {
+                    z-index: 0;
+                    font-size: 54px;
+                    color: #000;
+                }
+                img {
+                    width: 48px;
+                }
+            }
+        }
+    }
+
+    .projetos {
+        height: 100vh;
+        background-color: rgb(190, 233, 20);
+    }
 }
 
 @media (max-width:500px) {
     main {
-        section {
+        .home {
             height: 100%;
         }
     }
