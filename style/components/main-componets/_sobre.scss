@@ -1,0 +1,22 @@
+.sobre-mim {
+    background-color: bisque;
+    padding: 0 40px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+        text-decoration: underline;
+        padding-bottom: 1px;
+        border-bottom: 1px solid $fonte-alternativa;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}

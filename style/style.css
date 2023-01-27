@@ -125,4 +125,25 @@ main {
   border-radius: 25px;
   border: 1px solid #495464;
   margin: 0 10px;
+}
+
+.sobre-mim {
+  background-color: bisque;
+  padding: 0 40px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sobre-mim h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  text-decoration: underline;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #BBBFCA;
+}
+.sobre-mim p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
