@@ -7,4 +7,28 @@ body {
     text-decoration: none;
     list-style: none;
     color: $fonte;
+
+    .loading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 999;
+        min-height: 100vh;
+        width: 100vw;
+        background-color: $background-alternativa;
+        animation: loading 1s forwards 1.5s;
+        @keyframes loading {
+            to {
+                transform: translateX(100vw);
+                opacity: 0;
+            }
+        }
+
+        img {
+            border-radius: 100%;
+            width: 70px;
+            height: 70px;
+        }
+    }
 }

@@ -9,6 +9,37 @@ body {
   list-style: none;
   color: #495464;
 }
+* .loading,
+body .loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #F4F4F2;
+  -webkit-animation: loading 1s forwards 1.5s;
+          animation: loading 1s forwards 1.5s;
+}
+@-webkit-keyframes loading {
+  to {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+}
+@keyframes loading {
+  to {
+    transform: translateX(100vw);
+    opacity: 0;
+  }
+}
+* .loading img,
+body .loading img {
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
 
 header {
   position: fixed;
@@ -116,8 +147,20 @@ main {
   margin-top: 10px;
   width: 80px;
   height: 80px;
-  border: 1px solid #000;
+  border-radius: 50%;
   padding: 10px;
+  -webkit-animation: icon-loading 60s infinite;
+          animation: icon-loading 60s infinite;
+}
+@-webkit-keyframes icon-loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes icon-loading {
+  to {
+    transform: rotate(360deg);
+  }
 }
 .home .curriculo {
   display: flex;
