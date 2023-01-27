@@ -1,0 +1,28 @@
+.habilidades {
+    background-color: rgb(77, 198, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 40px;
+
+    h2 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 10px 0;
+        text-decoration: underline;
+        padding-bottom: 1px;
+        border-bottom: 1px solid $fonte-alternativa;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+}
