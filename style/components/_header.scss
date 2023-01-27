@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     padding: 0 40px;
     z-index: 1;
-    ul {
+    .contatos {
         display: flex;
         align-items: center;
         li {
@@ -19,7 +19,7 @@ header {
                 justify-content: center;
                 font-size: 35px;
                 animation: girando 10s infinite 5s;
-
+                color: $fonte;
                 @keyframes girando {
                     0% {
                         transform: rotate(0deg);

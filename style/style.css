@@ -52,20 +52,21 @@ header {
   padding: 0 40px;
   z-index: 1;
 }
-header ul {
+header .contatos {
   display: flex;
   align-items: center;
 }
-header ul li {
+header .contatos li {
   margin: 0 8px;
 }
-header ul li a {
+header .contatos li a {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 35px;
   -webkit-animation: girando 10s infinite 5s;
           animation: girando 10s infinite 5s;
+  color: #495464;
 }
 @-webkit-keyframes girando {
   0% {
