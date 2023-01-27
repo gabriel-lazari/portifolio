@@ -1,0 +1,10 @@
+header {
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: $background;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}

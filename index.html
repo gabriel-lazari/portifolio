@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/logo.gif" />
-    <title>Gabriel Lazari | Desenvolvedor front-end</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Lazari | Dev. Front-end</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
-    <!-- <div class="loading"><img src="img/logo.gif"></div>  -->
-
     <header>
-        <ion-icon class="code" name="code-slash-outline"></ion-icon>
-
+        <h1>GL</h1>
         <nav>
-            <div menu><span menu="btn"></span></div>
-
-            <ul menu="lista">
+            <div menu><span botao></span></div>
+            <ul lista>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre mim</a></li>
                 <li><a href="#">Habilidades</a></li>
                 <li><a href="#">Projetos</a></li>
@@ -30,55 +24,67 @@
 
     <main>
         <section class="home">
-            <div class="home-foto">
-                <img src="img/gabriel.png" alt="">
-
-                <ul>
-                    <li><a href="#">Download CV</a></li>
-                </ul>
+            <div>
+                <img src="" alt="Logo">
+                <h1>Olá, eu sou</h1>
+                <h2>Gabriel Lazari</h2>
+                <h3>Desenvolvedor front-end</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptatem labore adipisci assumenda similique.</p>
             </div>
-
-            <div class="home-descricao">
-                <h1>Gabriel Lazari</h1>
-                <h2>Desenvolvedor front-end</h2>
-                <p>
-                    Iniciei minha jornada profissional na área industrial como programador CNC e sempre gostei de
-                    solucionar problemas trabalhando com códigos e seus algoritmos, assim migrei para área de
-                    desenvolvimento de software, então possuindo um ano de experiência na área como desenvolvedor
-                    front-end, e sempre buscando ser muito cauteloso, atencioso e curioso.
-                </p>
+            <div>
+                <a href="#">Curriculo</a>
+                <a href="#">Contato</a>
             </div>
+        </section>
+
+        <section class="sobre-mim">
+            <img src="" alt="gabriel">
+            <h2>Sobre mim</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, enim dolore. Animi alias, error magnam nisi quisquam suscipit tenetur provident beatae atque nemo esse sequi debitis. Corrupti totam eos vitae.</p>
         </section>
 
         <section class="habilidades">
             <h2>Habilidades</h2>
             <ul>
-                <li><ion-icon name="logo-react"></ion-icon>ReactJS</li>
-                <li><ion-icon name="logo-nodejs"></ion-icon>NodeJS</li>
-                <li><img src="img/typescript.png"> TypeScript</li>
-                <li><ion-icon name="logo-javascript"></ion-icon>JavaScript</li>
-                <li><ion-icon name="logo-sass"></ion-icon>Sass</li>
-                <li><ion-icon name="logo-css3"></ion-icon>CSS</li>
-                <li><ion-icon name="logo-html5"></ion-icon>HTML</li>
-                <li><ion-icon name="logo-github"></ion-icon>GitHub</li>
-                <li><ion-icon name="git-branch-outline"></ion-icon>GIT</li>
-                <li><ion-icon name="logo-npm"></ion-icon>NPM</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>Sass</li>
+                <li>CSS</li>
+                <li>HTML</li>
             </ul>
         </section>
 
         <section class="projetos">
             <h2>Projetos</h2>
             <ul>
-                
+                <li>Em breve</li>
+                <li>Em breve</li>
+                <li>Em breve</li>
             </ul>
+        </section>
+
+        <section class="contato">
+            <h2>Contato</h2>
+            <form action="">
+                <input id="nome" type="text" placeholder="Nome | Empresa">               
+                <input id="email" type="email" placeholder="E-mail">
+                <input id="assunto" type="text" placeholder="Assunto">
+                <textarea name="mensagem" id="mensagem" cols="20" rows="4" placeholder="Mensagem"></textarea>
+            </form>
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <span>Copyright @ Code with by Gabriel Lazari</span>
+    </footer>
 
-    <script src="index.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="menu.js"></script>
 </body>
-
 </html>
