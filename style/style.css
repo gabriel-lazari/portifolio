@@ -251,7 +251,7 @@ main {
 .habilidades h2 {
   font-size: 24px;
   letter-spacing: 2px;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
   border-bottom: 1px solid #BBBFCA;
@@ -271,6 +271,7 @@ main {
   font-size: 55px;
 }
 .habilidades ul li img {
-  height: 40px;
-  width: 40px;
+  height: 48.13px;
+  width: 48.13px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
