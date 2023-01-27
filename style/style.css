@@ -14,11 +14,12 @@ header {
   position: fixed;
   height: 10vh;
   width: 100vw;
-  background-color: #F4F4F2;
+  background-color: #E8E8E8;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
+  z-index: 1;
 }
 
 nav div {
@@ -39,7 +40,7 @@ nav div span::after, nav div span::before {
 }
 nav ul {
   position: fixed;
-  background-color: #F4F4F2;
+  background-color: #E8E8E8;
   top: 10vh;
   left: 100vw;
   transition: 0.5s;
@@ -66,4 +67,66 @@ nav ul li a {
 
 .lista-ativa {
   left: 0;
+}
+
+main {
+  position: relative;
+  top: 10vh;
+}
+
+.home {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #F4F4F2;
+}
+.home .apresentacao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.home .apresentacao img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 40px;
+}
+.home .apresentacao .ola {
+  margin-right: 180px;
+}
+.home .apresentacao h1 {
+  margin-left: 160px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.home .apresentacao .sou {
+  margin-right: 255px;
+}
+.home .apresentacao h2 {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin-left: 100px;
+}
+.home .apresentacao p {
+  margin-top: 50px;
+  text-align: center;
+}
+.home .curriculo {
+  display: flex;
+  align-items: center;
+}
+.home .curriculo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #495464;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */

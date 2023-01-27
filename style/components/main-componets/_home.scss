@@ -1,0 +1,62 @@
+.home {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    flex-direction: column;
+    background-color: $background-alternativa;
+    .apresentacao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;  
+        padding: 0 20px;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            margin-bottom: 40px;
+        }
+
+        .ola {
+            margin-right: 180px;
+        }
+        
+        h1 {
+            margin-left: 160px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+
+        .sou {
+            margin-right: 255px;
+        }
+        h2 {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            font-style: italic;
+            margin-left: 100px;
+        }
+
+        p {
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+
+    .curriculo {
+        display: flex;
+        align-items: center;
+       
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 120px;
+            height: 50px;
+            border-radius: 25px;
+            border: 1px solid $fonte;
+            margin: 0 10px;
+        }
+    }
+}
