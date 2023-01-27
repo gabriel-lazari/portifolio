@@ -5,13 +5,15 @@
     flex-direction: column;
     background-color: $background-alternativa;
     transition: 0.4s;
+
     .apresentacao {
         display: flex;
         align-items: center;
-        flex-direction: column;  
+        flex-direction: column;
         padding: 0 20px;
+
         img {
-            margin-top: 10px; 
+            margin-top: 10px;
             width: 200px;
             height: 200px;
             border-radius: 100%;
@@ -21,7 +23,7 @@
         span {
             font-size: 16px;
         }
-    
+
         h1 {
             font-size: 20px;
             line-height: 30px;
@@ -46,6 +48,7 @@
             border-radius: 50%;
             padding: 10px;
             animation: icon-loading 60s infinite;
+
             @keyframes icon-loading {
                 to {
                     transform: rotate(360deg);
@@ -57,7 +60,7 @@
     .curriculo {
         display: flex;
         align-items: center;
-       
+
         a {
             display: flex;
             align-items: center;

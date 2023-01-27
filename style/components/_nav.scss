@@ -1,10 +1,12 @@
 nav {
     div {
         cursor: pointer;
+
         span {
             display: block;
             width: 40px;
             border-top: 4px solid $fonte;
+
             &::after,
             &::before {
                 border-top: 4px solid $fonte;
@@ -16,19 +18,21 @@ nav {
             }
         }
     }
-    ul {     
+
+    ul {
         position: fixed;
         background-color: $background;
         top: 10vh;
         left: 100vw;
         transition: 0.5s;
+
         li {
-            a{
+            a {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 100vw;  
-                height: 18vh; 
+                width: 100vw;
+                height: 18vh;
                 font-size: 18px;
                 font-weight: bold;
                 letter-spacing: 3px;
@@ -42,15 +46,17 @@ nav {
 .botao-animation {
     border-top-color: transparent;
     margin: 0 0 15px 0;
+
     &::after {
         transform: rotate(135deg);
     }
+
     &::before {
         transform: rotate(-135deg);
         top: 7px;
     }
 }
 
-.lista-ativa {  
+.lista-ativa {
     left: 0;
 }

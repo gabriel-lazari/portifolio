@@ -265,9 +265,10 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 10px 0;
 }
 .habilidades ul li ion-icon {
-  font-size: 50px;
+  font-size: 55px;
 }
 .habilidades ul li img {
   height: 40px;

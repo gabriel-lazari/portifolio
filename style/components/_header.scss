@@ -8,11 +8,14 @@ header {
     justify-content: space-between;
     padding: 0 40px;
     z-index: 1;
+
     .contatos {
         display: flex;
         align-items: center;
+
         li {
             margin: 0 8px;
+
             a {
                 display: flex;
                 align-items: center;
@@ -20,14 +23,17 @@ header {
                 font-size: 35px;
                 animation: girando 10s infinite 5s;
                 color: $fonte;
+
                 @keyframes girando {
                     0% {
                         transform: rotate(0deg);
                     }
+
                     50% {
                         transform: rotate(0deg);
 
                     }
+
                     100% {
                         transform: rotate(365deg);
 
