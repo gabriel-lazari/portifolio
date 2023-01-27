@@ -2,7 +2,6 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;   
     flex-direction: column;
     background-color: $background-alternativa;
     transition: 0.4s;
@@ -12,10 +11,11 @@
         flex-direction: column;  
         padding: 0 20px;
         img {
+            margin-top: 10px; 
             width: 200px;
             height: 200px;
             border-radius: 100%;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
 
         span {
@@ -23,7 +23,7 @@
         }
     
         h1 {
-            font-size: 22px;
+            font-size: 20px;
             line-height: 30px;
             font-style: italic;
         }
@@ -35,8 +35,15 @@
         }
 
         p {
-            margin-top: 50px;
+            margin-top: 10px;
             text-align: center;
+        }
+        .terra {
+            margin-top: 10px;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000;
+            padding: 10px;
         }
     }
 
