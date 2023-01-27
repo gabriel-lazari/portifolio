@@ -220,7 +220,7 @@ main {
 }
 
 .sobre-mim {
-  background-color: #dcd7d7;
+  background-color: #E8E8E8;
   padding: 30px 40px;
   height: 100%;
   display: flex;
@@ -281,22 +281,55 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 30px 0;
+  background-color: #E8E8E8;
+}
+.projetos h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 10px 0 20px 0;
+  text-decoration: underline;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #BBBFCA;
+}
+.projetos ul li {
+  border-radius: 25px;
   margin: 10px 0;
+  padding: 50px;
+  border: 1px solid #BBBFCA;
 }
 
 .contato {
+  background-color: #F4F4F2;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  margin: 10px 0 0 0;
-  min-height: 90vh;
+  padding: 30px 0;
+}
+.contato h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 10px 0 20px 0;
+  text-decoration: underline;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #BBBFCA;
 }
 .contato form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 75vw;
+}
+.contato form input {
+  width: 100%;
+  margin: 2px 0;
+  padding: 10px;
+}
+.contato form textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
 }
 
 footer {
