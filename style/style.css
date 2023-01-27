@@ -81,6 +81,7 @@ main {
   justify-content: space-around;
   flex-direction: column;
   background-color: #F4F4F2;
+  transition: 0.4s;
 }
 .home .apresentacao {
   display: flex;
@@ -94,26 +95,21 @@ main {
   border-radius: 100%;
   margin-bottom: 40px;
 }
-.home .apresentacao .ola {
-  margin-right: 180px;
+.home .apresentacao span {
+  font-size: 16px;
 }
 .home .apresentacao h1 {
-  margin-left: 160px;
-  font-size: 18px;
-  letter-spacing: 1px;
+  font-size: 22px;
+  line-height: 50px;
   font-style: italic;
-}
-.home .apresentacao .sou {
-  margin-right: 255px;
 }
 .home .apresentacao h2 {
-  font-size: 16px;
-  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 50px;
   font-style: italic;
-  margin-left: 100px;
 }
 .home .apresentacao p {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
 }
 .home .curriculo {
