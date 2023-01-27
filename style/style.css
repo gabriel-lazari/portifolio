@@ -24,13 +24,13 @@ body .loading {
 }
 @-webkit-keyframes loading {
   to {
-    transform: translateX(100vw);
+    transform: translatey(100vh);
     opacity: 0;
   }
 }
 @keyframes loading {
   to {
-    transform: translateX(100vw);
+    transform: translatey(100vh);
     opacity: 0;
   }
 }
@@ -52,6 +52,43 @@ header {
   padding: 0 40px;
   z-index: 1;
 }
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  margin: 0 8px;
+}
+header ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  -webkit-animation: girando 10s infinite 5s;
+          animation: girando 10s infinite 5s;
+}
+@-webkit-keyframes girando {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(365deg);
+  }
+}
+@keyframes girando {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(365deg);
+  }
+}
 
 nav div {
   cursor: pointer;
@@ -66,7 +103,7 @@ nav div span::after, nav div span::before {
   content: "";
   display: block;
   position: relative;
-  margin-top: 4px;
+  margin-top: 3px;
   transition: 0.4s;
 }
 nav ul {
@@ -82,6 +119,10 @@ nav ul li a {
   justify-content: center;
   width: 100vw;
   height: 18vh;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: underline;
 }
 
 .botao-animation {
@@ -124,7 +165,7 @@ main {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .home .apresentacao span {
   font-size: 16px;

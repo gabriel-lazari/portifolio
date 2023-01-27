@@ -20,7 +20,7 @@ body {
         animation: loading 1s forwards 1.5s;
         @keyframes loading {
             to {
-                transform: translateX(100vw);
+                transform: translatey(100vh);
                 opacity: 0;
             }
         }

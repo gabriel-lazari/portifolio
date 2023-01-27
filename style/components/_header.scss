@@ -8,4 +8,32 @@ header {
     justify-content: space-between;
     padding: 0 40px;
     z-index: 1;
+    ul {
+        display: flex;
+        align-items: center;
+        li {
+            margin: 0 8px;
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 35px;
+                animation: girando 10s infinite 5s;
+
+                @keyframes girando {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+                    50% {
+                        transform: rotate(0deg);
+
+                    }
+                    100% {
+                        transform: rotate(365deg);
+
+                    }
+                }
+            }
+        }
+    }
 }
