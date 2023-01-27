@@ -1,0 +1,11 @@
+footer {
+    position: relative;
+    background-color: $background;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 12px;
+    }
+}
