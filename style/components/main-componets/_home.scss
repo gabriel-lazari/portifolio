@@ -47,13 +47,6 @@
             height: 85px;
             border-radius: 50%;
             padding: 10px;
-            animation: icon-loading 60s infinite;
-
-            @keyframes icon-loading {
-                to {
-                    transform: rotate(360deg);
-                }
-            }
         }
     }
 
