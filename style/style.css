@@ -179,6 +179,7 @@ main {
   font-size: 18px;
   line-height: 30px;
   font-style: italic;
+  margin-bottom: 5px;
 }
 .home .apresentacao p {
   margin-top: 10px;
@@ -281,8 +282,8 @@ main {
 }
 .projetos ul li {
   border-radius: 25px;
-  margin: 10px 0;
-  padding: 50px;
+  margin: 20px 0;
+  padding: 50px 100px;
   border: 1px solid #BBBFCA;
 }
 
@@ -309,11 +310,14 @@ main {
   width: 75vw;
 }
 .contato form input {
+  text-align: center;
   width: 100%;
   margin: 2px 0;
   padding: 10px;
+  color: #495464;
 }
 .contato form textarea {
+  text-align: center;
   width: 100%;
   margin: 5px 0;
   padding: 10px;

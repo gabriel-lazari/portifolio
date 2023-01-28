@@ -22,16 +22,18 @@
         width: 75vw;
 
         input {
+            text-align: center;
             width: 100%;
             margin: 2px 0;
             padding: 10px;
+            color: $fonte;
         }
 
         textarea {
+            text-align: center;
             width: 100%;
             margin: 5px 0;
             padding: 10px;
-
         }
     }
 }

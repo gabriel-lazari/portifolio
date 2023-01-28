@@ -11,5 +11,6 @@ menu.addEventListener('click', () => {
 linkMenu.forEach(Element => {
     Element.addEventListener('click', () => {
         lista.classList.toggle('lista-ativa');
+        botao.classList.toggle('botao-animation');
     })
 })
