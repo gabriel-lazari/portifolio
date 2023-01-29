@@ -40,19 +40,6 @@ body .loading img {
   width: 70px;
   height: 70px;
 }
-* [data-anime],
-body [data-anime] {
-  opacity: 0;
-  transition: 0.3s;
-}
-* [data-anime=rigth],
-body [data-anime=rigth] {
-  transform: translate3d(50px, 0, 0);
-}
-* [data-anime=left],
-body [data-anime=left] {
-  transform: translate3d(-50px, 0, 0);
-}
 * .animate,
 body .animate {
   opacity: 1;
