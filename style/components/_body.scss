@@ -32,4 +32,23 @@ body {
             height: 70px;
         }
     }
+
+    [anime] {
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    [anime="left"] {
+        transform: translate3d(-50px, 0, 0);
+    }
+
+    [anime="scroll-margin-right: ;"] {
+        transform: translate3d(50px, 0, 0);
+    }
+}
+
+// animação do scroll
+.scroll {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
