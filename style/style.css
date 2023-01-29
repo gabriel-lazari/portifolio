@@ -40,23 +40,23 @@ body .loading img {
   width: 70px;
   height: 70px;
 }
-* [anime],
-body [anime] {
+* [data-anime],
+body [data-anime] {
   opacity: 0;
   transition: 0.3s;
 }
-* [anime=left],
-body [anime=left] {
-  transform: translate3d(-50px, 0, 0);
-}
-* [anime="scroll-margin-right: ;"],
-body [anime="scroll-margin-right: ;"] {
+* [data-anime=rigth],
+body [data-anime=rigth] {
   transform: translate3d(50px, 0, 0);
 }
-
-.scroll {
+* [data-anime=left],
+body [data-anime=left] {
+  transform: translate3d(-50px, 0, 0);
+}
+* .animate,
+body .animate {
   opacity: 1;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0px, 0px, 0px);
 }
 
 header {

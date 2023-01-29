@@ -33,22 +33,22 @@ body {
         }
     }
 
-    [anime] {
+    [data-anime] {
         opacity: 0;
-        transition: 0.3s;
+        transition: .3s;
     }
 
-    [anime="left"] {
+    [data-anime="rigth"] {
+        transform: translate3d(50px, 0, 0);
+    }
+
+    [data-anime="left"] {
         transform: translate3d(-50px, 0, 0);
     }
 
-    [anime="scroll-margin-right: ;"] {
-        transform: translate3d(50px, 0, 0);
+   .animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
     }
 }
 
-// animação do scroll
-.scroll {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-}
