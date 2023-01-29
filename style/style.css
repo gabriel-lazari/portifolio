@@ -72,7 +72,7 @@ header .contatos li a {
   0% {
     transform: rotate(0deg);
   }
-  50% {
+  92% {
     transform: rotate(0deg);
   }
   100% {
@@ -83,7 +83,7 @@ header .contatos li a {
   0% {
     transform: rotate(0deg);
   }
-  50% {
+  92% {
     transform: rotate(0deg);
   }
   100% {
@@ -164,7 +164,9 @@ main {
   margin-top: 15px;
   width: 200px;
   height: 200px;
+  border-radius: 100%;
   margin-bottom: 22px;
+  border: 5px solid #000000;
 }
 .home .apresentacao span {
   font-size: 16px;
@@ -308,6 +310,9 @@ main {
   flex-direction: column;
   width: 75vw;
 }
+.contato form:active {
+  color: #495464;
+}
 .contato form input {
   text-align: center;
   width: 100%;
@@ -315,11 +320,17 @@ main {
   padding: 10px;
   color: #495464;
 }
+.contato form input:active {
+  color: #495464;
+}
 .contato form textarea {
   text-align: center;
   width: 100%;
   margin: 6px 0;
   padding: 30px;
+}
+.contato form textarea:active {
+  color: #495464;
 }
 
 footer {

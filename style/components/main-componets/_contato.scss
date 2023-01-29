@@ -20,6 +20,9 @@
         justify-content: center;
         flex-direction: column;
         width: 75vw;
+        &:active {
+            color: $fonte;
+        }
 
         input {
             text-align: center;
@@ -27,6 +30,10 @@
             margin: 3px 0;
             padding: 10px;
             color: $fonte;
+
+            &:active {
+                color: $fonte;
+            }
         }
 
         textarea {
@@ -34,6 +41,10 @@
             width: 100%;
             margin: 6px 0;
             padding: 30px;
+
+            &:active {
+                color: $fonte;
+            }
         }
     }
 }
