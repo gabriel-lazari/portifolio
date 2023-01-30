@@ -5,6 +5,8 @@ function animeScroll() {
     target.forEach(Element => {
         if (windowsTop > Element.offsetTop) {
             Element.classList.add('animation');
+        } else {
+            Element.classList.remove('animate');
         }
         
     })
