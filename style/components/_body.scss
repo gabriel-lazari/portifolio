@@ -42,15 +42,15 @@ body {
     }
 
     [data-anime="left"] {
-        transform: translateX(-50px);
+        transform: translate3d(-30px, 0, 0);
     }
 
     [data-anime="right"] {
-        transform: translateX(50px);
+        transform: translate3d(30px, 0, 0);
     }
 
     .animation {
-        transform: translateX(0);
+        transform: translate3d(0px, 0, 0);
         opacity: 1;
     }
 }
