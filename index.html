@@ -22,17 +22,17 @@
         <nav>
             <div menu><span botao></span></div>
             <ul lista>
-                <li><a link href="#">Página Principal</a></li>
-                <li><a link href="#">Sobre mim</a></li>
-                <li><a link href="#">Habilidades</a></li>
-                <li><a link href="#">Projetos</a></li>
-                <li><a link href="#">Contato</a></li>
+                <li><a link href="#home">Página Principal</a></li>
+                <li><a link href="#sobre">Sobre mim</a></li>
+                <li><a link href="#habilidades">Habilidades</a></li>
+                <li><a link href="#projetos">Projetos</a></li>
+                <li><a link href="#contato">E-mail</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="apresentacao">
                 <img class="avatar" src="img/gabriel.png" alt="Gabriel Lazari">
                 <span>Olá,</span>
@@ -47,11 +47,11 @@
 
             <div class="curriculo">
                 <a href="https://drive.google.com/file/d/1-klqG5aAzBP3rLqWe67m_lkWaMGoaFCk/view">Currículo</a>
-                <a href="">Contato</a>
+                <a href="#contato" data-email>E-mail</a>
             </div>
         </section>
 
-        <section class="sobre-mim">
+        <section class="sobre-mim" id="sobre">
             <h2 data-anime="left">Sobre mim</h2>
             <p data-anime="right">
                 Tenho 23 anos de idade, estou cursado Analise e Desenvolvimento de Sistemas na Universidade
@@ -75,7 +75,7 @@
             </p>
         </section>
 
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
             <h2 data-anime="right">Habilidades</h2>
             <ul data-anime="left">
                 <li><ion-icon name="logo-react"></ion-icon>ReactJS</li>
@@ -90,7 +90,7 @@
             </ul>
         </section>
 
-        <section class="projetos">
+        <section class="projetos" id="projetos">
             <h2 data-anime="right">Projetos</h2>
             <ul>
                 <li data-anime="left">Em breve</li>
@@ -99,8 +99,8 @@
             </ul>
         </section>
 
-        <section class="contato">
-            <h2 data-anime="right">Contato</h2>
+        <section class="contato" id="contato">
+            <h2 data-anime="right">E-mail</h2>
             <form action="" id="form" data-anime="left">
                 <input id="nome" type="text" required placeholder="Nome | Empresa">
                 <input id="email" type="email" required placeholder="E-mail">
@@ -116,7 +116,8 @@
     </footer>
 
     <script src="javascript/menu.js"></script>
-    <script src="javascript/scroll.js"></script>
+    <script src="javascript/scrollAnimation.js"></script>
+    <script src="javascript/scrollLinks.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
