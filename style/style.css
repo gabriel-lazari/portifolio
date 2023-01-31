@@ -65,8 +65,8 @@ body [data-enviado] h2 {
 }
 * .enviando,
 body .enviando {
-  -webkit-animation: enviado 5s forwards;
-          animation: enviado 5s forwards;
+  -webkit-animation: enviado 2s forwards;
+          animation: enviado 2s forwards;
 }
 @-webkit-keyframes enviado {
   10% {
