@@ -12,6 +12,8 @@
 
 <body>
     <div class="loading"><img src="img/terra.gif"></div>
+    <div data-enviado><h2>E-mail enviado com sucesso!</h2></div>
+
     <header>
         <ul class="contatos">
             <li><a href="https://www.linkedin.com/in/gabriel-f-lazari/"><ion-icon name="logo-linkedin"></ion-icon></a>
@@ -106,7 +108,7 @@
                 <input id="email" type="email" required placeholder="E-mail">
                 <input id="assunto" type="text" required placeholder="Assunto">
                 <textarea name="mensagem" required id="mensagem" cols="20" rows="1" placeholder="Mensagem"></textarea>
-                <input type="submit" value="Enviar">
+                <input data-enviar type="reset" value="Enviar"></input>
             </form>
         </section>
     </main>
@@ -118,6 +120,7 @@
     <script src="javascript/menu.js"></script>
     <script src="javascript/scrollAnimation.js"></script>
     <script src="javascript/scrollLinks.js"></script>
+    <script src="javascript/form.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

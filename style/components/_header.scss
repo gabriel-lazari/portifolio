@@ -21,7 +21,7 @@ header {
                 align-items: center;
                 justify-content: center;
                 font-size: 35px;
-                animation: girando 10s infinite 5s;
+                animation: girando 4s infinite;
                 color: $fonte;
 
                 @keyframes girando {
