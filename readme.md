@@ -1,4 +1,4 @@
-## Mini portifólio 
+## Portifólio
 ## Conhecimentos práticados 📚
 - HTML - montagem semântica para Web.
 - SASS – estilizei todo meu projeto de forma dinâmica e organizada.
@@ -6,14 +6,15 @@
 - JavaScript - realizei animações de scrool, eventos click e manipulação DOM.
 
 ## Preview 🎥
-![mini portifolio](https://user-images.githubusercontent.com/80296330/203463908-24c8c018-e06f-4a35-a831-7cc27a8d0f30.png)
+![portifolio](https://user-images.githubusercontent.com/80296330/215661714-2c179143-f8bd-4380-b11f-e5381ef067ba.jpeg)
+
 
 ## Acessar o projeto e rodar 📁
 
 é necessário fazer download do arquivo e abrir o ``index.html`` 
 
 ```
-https://github.com/NewMiniBoss/meu-portifolio/archive/refs/heads/main.zip
+https://github.com/NewMiniBoss/portifolio-front/archive/refs/heads/main.zip
 ```
 
 ## Tecnologias usadas no projeto 🚀
