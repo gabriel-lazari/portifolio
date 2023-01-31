@@ -6,8 +6,10 @@
 - JavaScript - realizei animações de scrool, eventos click e manipulação DOM.
 
 ## Preview 🎥
-![portifolio](https://user-images.githubusercontent.com/80296330/215661714-2c179143-f8bd-4380-b11f-e5381ef067ba.jpeg)
+![porty](https://user-images.githubusercontent.com/80296330/215662328-7feab721-f0ab-41c5-af3a-c41db3b01972.png)
 
+## Deploy
+https://newminiboss.github.io/portifolio-front/
 
 ## Acessar o projeto e rodar 📁
 
