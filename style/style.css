@@ -20,7 +20,7 @@ body .loading {
   z-index: 999;
   min-height: 100vh;
   width: 100vw;
-  background-color: #1A120B;
+  background-color: #000000;
   animation: loading 1s forwards 1.5s;
 }
 @keyframes loading {
@@ -42,7 +42,7 @@ body [data-enviado] {
   z-index: 100;
   min-height: 20vh;
   width: 100vw;
-  background-color: #1A120B;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +102,7 @@ header {
   position: fixed;
   height: 10vh;
   width: 100vw;
-  background-color: #1A120B;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,7 +162,7 @@ nav div span::after, nav div span::before {
 }
 nav ul {
   position: fixed;
-  background-color: #1A120B;
+  background-color: #000000;
   top: 10vh;
   left: 100vw;
   transition: 0.5s;
@@ -287,7 +287,7 @@ main {
   }
 }
 .sobre-mim {
-  background-color: #1A120B;
+  background-color: #000000;
   padding: 30px 40px;
   height: 100%;
   display: flex;
@@ -300,7 +300,7 @@ main {
   margin: 10px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #3C2A21;
+  border-bottom: 1px solid #000000;
 }
 .sobre-mim p {
   font-size: 14px;
@@ -329,7 +329,7 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #3C2A21;
+  border-bottom: 1px solid #000000;
 }
 .habilidades ul {
   display: grid;
@@ -376,7 +376,7 @@ main {
   justify-content: center;
   flex-direction: column;
   padding: 30px 0;
-  background-color: #1A120B;
+  background-color: #000000;
 }
 .projetos h2 {
   font-size: 24px;
@@ -384,14 +384,14 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #3C2A21;
+  border-bottom: 1px solid #000000;
 }
 .projetos ul li {
   background-color: #346751;
   border-radius: 25px;
   margin: 20px 0;
   padding: 50px 25px;
-  border: 2px solid #3C2A21;
+  border: 2px solid #000000;
   text-align: center;
   font-weight: bold;
 }
@@ -400,7 +400,7 @@ main {
   font-style: italic;
 }
 .projetos ul li a {
-  border-bottom: 2px solid #3C2A21;
+  border-bottom: 2px solid #000000;
   margin: 0 10px 5px;
 }
 
@@ -417,7 +417,7 @@ main {
   }
   .projetos ul li a {
     font-size: 18px;
-    border-bottom: 2px solid #3C2A21;
+    border-bottom: 2px solid #000000;
     margin: 0 10px 5px;
   }
 }
@@ -434,7 +434,7 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #3C2A21;
+  border-bottom: 1px solid #000000;
 }
 .contato form {
   display: flex;
@@ -451,7 +451,7 @@ main {
   width: 100%;
   margin: 3px 0;
   padding: 10px;
-  color: #3C2A21;
+  color: #000000;
 }
 .contato form input:active {
   color: #ffffff;
@@ -481,7 +481,7 @@ main {
   }
 }
 footer {
-  background-color: #1A120B;
+  background-color: #000000;
   min-height: 10vh;
   display: flex;
   align-items: center;
