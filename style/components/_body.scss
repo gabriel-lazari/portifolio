@@ -94,3 +94,15 @@ body {
         opacity: 1;
     }
 }
+
+@media (min-width: 640px) {
+    body {
+        .loading {
+            img {
+                border-radius: 100%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

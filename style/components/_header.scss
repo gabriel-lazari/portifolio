@@ -43,3 +43,16 @@ header {
         }
     }
 }
+
+@media (min-width: 650px) {
+    header {
+        padding: 0 100px;
+        .contatos {
+            li {
+                a {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+}

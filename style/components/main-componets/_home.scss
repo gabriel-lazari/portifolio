@@ -68,3 +68,43 @@
         }
     }
 }
+
+@media (min-width: 650px) {
+    .home {
+        .apresentacao {
+            .avatar {
+                width: 250px;
+                height: 250px;
+            }
+
+            span {
+                font-size: 24px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            .terra {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .curriculo {
+            a {
+                width: 200px;
+                font-size: 24px;
+
+            }
+        }
+    }
+}
