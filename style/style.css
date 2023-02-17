@@ -20,7 +20,7 @@ body .loading {
   z-index: 999;
   min-height: 100vh;
   width: 100vw;
-  background-color: #346751;
+  background-color: #1A120B;
   animation: loading 1s forwards 1.5s;
 }
 @keyframes loading {
