@@ -199,7 +199,7 @@ main {
 }
 
 .home {
-  padding: 40px;
+  padding: 30px 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -221,15 +221,15 @@ main {
   border: 5px solid #000000;
 }
 .home .apresentacao span {
-  font-size: 16px;
+  font-size: 15px;
 }
 .home .apresentacao h1 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   font-style: italic;
 }
 .home .apresentacao h2 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   font-style: italic;
   margin-bottom: 5px;
