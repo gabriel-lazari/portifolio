@@ -79,11 +79,11 @@ body [data-anime] {
 }
 * [data-anime=left],
 body [data-anime=left] {
-  transform: translate3d(-30px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
 }
 * [data-anime=right],
 body [data-anime=right] {
-  transform: translate3d(30px, 0, 0);
+  transform: translate3d(15px, 0, 0);
 }
 * .animation,
 body .animation {
@@ -157,7 +157,7 @@ nav div span::after, nav div span::before {
   content: "";
   display: block;
   position: relative;
-  margin-top: 3px;
+  margin-top: 6px;
   transition: 0.4s;
 }
 nav ul {
@@ -187,7 +187,7 @@ nav ul li a {
 }
 .botao-animation::before {
   transform: rotate(-135deg);
-  top: 7px;
+  top: 10px;
 }
 
 .lista-ativa {
@@ -199,7 +199,7 @@ main {
 }
 
 .home {
-  height: 90vh;
+  padding: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -289,7 +289,6 @@ main {
 .sobre-mim {
   background-color: #000000;
   padding: 30px 40px;
-  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;

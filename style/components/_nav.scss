@@ -13,7 +13,7 @@ nav {
                 content: "";
                 display: block;
                 position: relative;
-                margin-top: 3px;
+                margin-top: 6px;
                 transition: 0.4s;
             }
         }
@@ -52,7 +52,7 @@ nav {
 
     &::before {
         transform: rotate(-135deg);
-        top: 7px;
+        top: 10px;
     }
 }
 
