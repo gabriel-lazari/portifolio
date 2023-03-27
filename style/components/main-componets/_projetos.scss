@@ -24,7 +24,7 @@
             border: 2px solid $fonte-alternativa;
             text-align: center;
             font-weight: bold;
-            
+
             h3 {
                 letter-spacing: 2px;
                 font-style: italic;
@@ -40,20 +40,20 @@
 
 @media (min-width: 650px) {
     .projetos {
-    
+
         h2 {
             font-size: 35px;
         }
-    
+
         ul {
             li {
                 font-size: 18px;
                 padding: 50px 25vw;
-           
+
                 h3 {
                     font-size: 24px;
                 }
-    
+
                 a {
                     font-size: 18px;
                     border-bottom: 2px solid $fonte-alternativa;
