@@ -203,7 +203,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #45cd5c;
+  background-color: #15217b;
   transition: 0.4s;
 }
 .home .apresentacao {
@@ -315,7 +315,7 @@ main {
   }
 }
 .habilidades {
-  background-color: #45cd5c;
+  background-color: #15217b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -386,7 +386,7 @@ main {
   border-bottom: 1px solid #000000;
 }
 .projetos ul li {
-  background-color: #45cd5c;
+  background-color: #15217b;
   border-radius: 25px;
   margin: 20px 0;
   padding: 50px 25px;
@@ -421,7 +421,7 @@ main {
   }
 }
 .contato {
-  background-color: #45cd5c;
+  background-color: #15217b;
   display: flex;
   align-items: center;
   flex-direction: column;
