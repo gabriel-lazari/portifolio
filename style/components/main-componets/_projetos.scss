@@ -4,25 +4,31 @@
     padding: 30px 20px;
 
     h2 {
-        font-size: 35px;
+        font-size: 24px;
+        letter-spacing: 2px;
+        margin: 10px 0 20px 0;
         text-decoration: underline;
+        padding-bottom: 1px;
+        // border-bottom: 1px solid $fonte-alternativa;
+        width: 100%;
     }
 
     video {
         width: 100%;
-        padding: 5px 20px;
+        padding: 5px 20px;  
     }
 
     ul {
         li {
-            border: 1px solid #000;
+            background-color: $fonte-alternativa;
+            border: 3px solid #000;
             border-radius: 10px;
             margin: 20px 0;
             padding: 10px 0;
             width: 100%;
 
             h3 {
-                font-size: 24px;
+                font-size: 16px;
                 letter-spacing: 1.5px;
                 border-bottom: 1.2px solid #000;
                 padding-bottom: 5px;
@@ -35,7 +41,7 @@
                 justify-content: space-around;
 
                 a {
-                    font-size: 20px;
+                    font-size: 16px;
                     letter-spacing: 2px;
                     font-weight: bold;
                     text-decoration: underline;
@@ -48,5 +54,21 @@
 @media screen and (min-width: 600px) {
     .projetos {
         padding: 30px 220px;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        ul{
+            li {
+                h3 {
+                    font-size: 20px;
+                }           
+                
+                a {
+                    font-size: 20px
+                }
+            }
+        }
     }
 }

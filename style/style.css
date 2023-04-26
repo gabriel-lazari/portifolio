@@ -328,7 +328,6 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #BBBFCA;
 }
 .habilidades ul {
   display: grid;
@@ -375,22 +374,27 @@ main {
   padding: 30px 20px;
 }
 .projetos h2 {
-  font-size: 35px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 10px 0 20px 0;
   text-decoration: underline;
+  padding-bottom: 1px;
+  width: 100%;
 }
 .projetos video {
   width: 100%;
   padding: 5px 20px;
 }
 .projetos ul li {
-  border: 1px solid #000;
+  background-color: #BBBFCA;
+  border: 3px solid #000;
   border-radius: 10px;
   margin: 20px 0;
   padding: 10px 0;
   width: 100%;
 }
 .projetos ul li h3 {
-  font-size: 24px;
+  font-size: 16px;
   letter-spacing: 1.5px;
   border-bottom: 1.2px solid #000;
   padding-bottom: 5px;
@@ -402,7 +406,7 @@ main {
   justify-content: space-around;
 }
 .projetos ul li div a {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   font-weight: bold;
   text-decoration: underline;
@@ -411,6 +415,15 @@ main {
 @media screen and (min-width: 600px) {
   .projetos {
     padding: 30px 220px;
+  }
+  .projetos h2 {
+    font-size: 35px;
+  }
+  .projetos ul li h3 {
+    font-size: 20px;
+  }
+  .projetos ul li a {
+    font-size: 20px;
   }
 }
 .contato {
@@ -426,7 +439,6 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #BBBFCA;
 }
 .contato form {
   display: flex;
