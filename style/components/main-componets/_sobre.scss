@@ -1,6 +1,6 @@
 .sobre-mim {
     background-color: $background;
-    padding: 30px 40px;
+    padding: 30px 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,11 +17,14 @@
     p {
         font-size: 14px;
         margin-bottom: 20px;
+        text-align: center;
+
     }
 }
 
 @media (min-width: 650px) {
     .sobre-mim {
+        padding: 30px 200px;
         h2 {
             font-size: 35px;
         }
