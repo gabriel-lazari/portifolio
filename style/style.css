@@ -3,12 +3,12 @@
 body {
   box-sizing: border-box;
   font-family: "Source Code Pro", monospace !important;
-  color: #ffffff;
+  color: #495464;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: #ffffff;
+  color: #495464;
   box-sizing: border-box;
 }
 * .loading,
@@ -20,7 +20,7 @@ body .loading {
   z-index: 999;
   min-height: 100vh;
   width: 100vw;
-  background-color: #000000;
+  background-color: #E8E8E8;
   animation: loading 1s forwards 1.5s;
 }
 @keyframes loading {
@@ -42,7 +42,7 @@ body [data-enviado] {
   z-index: 100;
   min-height: 20vh;
   width: 100vw;
-  background-color: #000000;
+  background-color: #E8E8E8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +102,7 @@ header {
   position: fixed;
   height: 10vh;
   width: 100vw;
-  background-color: #000000;
+  background-color: #E8E8E8;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -122,7 +122,7 @@ header .contatos li a {
   justify-content: center;
   font-size: 35px;
   animation: girando 4s infinite;
-  color: #ffffff;
+  color: #495464;
 }
 @keyframes girando {
   0% {
@@ -150,10 +150,10 @@ nav div {
 nav div span {
   display: block;
   width: 40px;
-  border-top: 4px solid #ffffff;
+  border-top: 4px solid #495464;
 }
 nav div span::after, nav div span::before {
-  border-top: 4px solid #ffffff;
+  border-top: 4px solid #495464;
   content: "";
   display: block;
   position: relative;
@@ -162,7 +162,7 @@ nav div span::after, nav div span::before {
 }
 nav ul {
   position: fixed;
-  background-color: #000000;
+  background-color: #E8E8E8;
   top: 10vh;
   left: 100vw;
   transition: 0.5s;
@@ -203,7 +203,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #0d3674;
+  background-color: #F4F4F2;
   transition: 0.4s;
 }
 .home .apresentacao {
@@ -256,7 +256,7 @@ main {
   width: 120px;
   height: 50px;
   border-radius: 25px;
-  border: 1px solid #ffffff;
+  border: 1px solid #495464;
   margin: 0 10px;
 }
 
@@ -287,7 +287,7 @@ main {
   }
 }
 .sobre-mim {
-  background-color: #000000;
+  background-color: #E8E8E8;
   padding: 30px 40px;
   display: flex;
   align-items: center;
@@ -299,7 +299,7 @@ main {
   margin: 10px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #BBBFCA;
 }
 .sobre-mim p {
   font-size: 14px;
@@ -315,7 +315,7 @@ main {
   }
 }
 .habilidades {
-  background-color: #0d3674;
+  background-color: #F4F4F2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,7 +328,7 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #BBBFCA;
 }
 .habilidades ul {
   display: grid;
@@ -375,7 +375,7 @@ main {
   justify-content: center;
   flex-direction: column;
   padding: 30px 0;
-  background-color: #000000;
+  background-color: #E8E8E8;
 }
 .projetos h2 {
   font-size: 24px;
@@ -383,14 +383,14 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #BBBFCA;
 }
 .projetos ul li {
-  background-color: #0d3674;
+  background-color: #F4F4F2;
   border-radius: 25px;
   margin: 20px 0;
   padding: 50px 25px;
-  border: 2px solid #000000;
+  border: 2px solid #BBBFCA;
   text-align: center;
   font-weight: bold;
 }
@@ -399,7 +399,7 @@ main {
   font-style: italic;
 }
 .projetos ul li a {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #BBBFCA;
   margin: 0 10px 5px;
 }
 
@@ -416,12 +416,12 @@ main {
   }
   .projetos ul li a {
     font-size: 18px;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #BBBFCA;
     margin: 0 10px 5px;
   }
 }
 .contato {
-  background-color: #0d3674;
+  background-color: #F4F4F2;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -433,7 +433,7 @@ main {
   margin: 10px 0 20px 0;
   text-decoration: underline;
   padding-bottom: 1px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #BBBFCA;
 }
 .contato form {
   display: flex;
@@ -443,17 +443,17 @@ main {
   width: 75vw;
 }
 .contato form:active {
-  color: #ffffff;
+  color: #495464;
 }
 .contato form input {
   text-align: center;
   width: 100%;
   margin: 3px 0;
   padding: 10px;
-  color: #000000;
+  color: #BBBFCA;
 }
 .contato form input:active {
-  color: #ffffff;
+  color: #495464;
 }
 .contato form textarea {
   text-align: center;
@@ -462,7 +462,7 @@ main {
   padding: 30px;
 }
 .contato form textarea:active {
-  color: #ffffff;
+  color: #495464;
 }
 
 @media (min-width: 650px) {
@@ -480,7 +480,7 @@ main {
   }
 }
 footer {
-  background-color: #000000;
+  background-color: #E8E8E8;
   min-height: 10vh;
   display: flex;
   align-items: center;
