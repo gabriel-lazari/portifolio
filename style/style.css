@@ -138,6 +138,7 @@ header .contatos li a {
 
 .btn-enviar {
   cursor: pointer;
+  padding: 10px;
 }
 
 @media (min-width: 650px) {
