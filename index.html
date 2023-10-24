@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,12 @@
     <link rel="icon" href="img/github.png">
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <div class="loading"><img src="img/terra.gif"></div>
-    <div data-enviado><h2>E-mail enviado com sucesso!</h2></div>
+    <div data-enviado>
+        <h2>E-mail enviado com sucesso!</h2>
+    </div>
 
     <header>
         <ul class="contatos">
@@ -34,7 +38,7 @@
     <main>
         <section class="home" id="home">
             <div class="apresentacao">
-                <img class="avatar" src="img/gabs.jpg" alt="Gabriel Lazari">
+                <img class="avatar" src="img/gabs.png" alt="Gabriel Lazari">
                 <span>Olá,</span>
                 <span>eu me chamo</span>
                 <h1>Gabriel Lazari</h1>
@@ -54,10 +58,13 @@
         <section class="sobre-mim" id="sobre">
             <h2 data-anime="left">Sobre mim</h2>
             <p data-anime="left">
-                Iniciei minha jornada profissional na área industrial como programador CNC e sempre gostei de solucionar problemas com códigos, assim, migrei para área de desenvolvimento de software.
+                Iniciei minha jornada profissional na área industrial como programador CNC e sempre gostei de solucionar
+                problemas com códigos, assim, migrei para área de desenvolvimento de software.
             </p>
             <p data-anime="right">
-                Atualmente possuo um ano de experiência como desenvolvedor Web front-end, curso análise e desenvolvimento de sistemas na Universidade Católica de Brasilia de forma EAD e me dedico à linguagem de programação JavaScript.
+                Atualmente possuo um ano de experiência como desenvolvedor Web front-end, curso análise e
+                desenvolvimento de sistemas na Universidade Católica de Brasilia de forma EAD e me dedico à linguagem de
+                programação JavaScript.
             </p>
             <h2 data-anime="right">Meus Objetivos</h2>
             <p data-anime="left">
@@ -68,7 +75,7 @@
 
         <section class="habilidades" id="habilidades">
             <h2 data-anime="right">Habilidades</h2>
-            <ul data-anime="left">            
+            <ul data-anime="left">
                 <li><ion-icon name="logo-nodejs"></ion-icon>Node.js</li>
                 <li><ion-icon name="logo-react"></ion-icon>React</li>
                 <li><img src="img/typescript.png"> TypeScript</li>
@@ -87,7 +94,7 @@
                 <li data-anime="left">
                     <h3>Portifólio</h3>
                     <a href="https://newminiboss.github.io/portifolio-front/">
-                        <video src="./img/portifolio.mp4" autoplay muted loop></video>
+                        <video src="./img/portifolio.mp4" autoplay muted loop playsinline></video>
                     </a>
                     <div>
                         <a href="https://newminiboss.github.io/portifolio-front/">Link</a>
@@ -98,7 +105,7 @@
                 <li data-anime="right">
                     <h3>Hollow Knight</h3>
                     <a href="https://hollow-knight-lovat.vercel.app/">
-                        <video src="./img/hollow.mp4" autoplay muted loop></video>
+                        <video src="./img/hollow.mp4" autoplay muted loop playsinline></video>
                     </a>
                     <div>
                         <a href="https://hollow-knight-lovat.vercel.app/">Link</a>
@@ -116,7 +123,7 @@
                 <input id="email" type="email" required placeholder="E-mail">
                 <input id="assunto" type="text" required placeholder="Assunto">
                 <textarea name="mensagem" required id="mensagem" cols="20" rows="1" placeholder="Mensagem"></textarea>
-                <input data-enviar type="reset" value="Enviar"></input>
+                <input class="btn-enviar" data-enviar type="reset" value="Enviar"></input>
             </form>
         </section>
     </main>

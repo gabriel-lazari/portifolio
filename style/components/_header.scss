@@ -44,9 +44,14 @@ header {
     }
 }
 
+.btn-enviar {
+    cursor: pointer;
+}
+
 @media (min-width: 650px) {
     header {
         padding: 0 100px;
+
         .contatos {
             li {
                 a {
